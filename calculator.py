@@ -2,9 +2,9 @@
 typ = input("seconds or milliseconds? (s/[ms])  ")
 if typ=="s":
   secs = int(input("Ok. Converting seconds to human readable format.\nPlease Enter the number of seconds.  "))
-  msiliseconds=0
+  miliseconds=0
 else:
-  ms=int(input("Ok. Converting milliseconds to human readable format.\nPlease Enter the number of milliseconds.  "))
+  ms=int(input("Ok. Converting miliseconds to human readable format.\nPlease Enter the number of miliseconds.  "))
   secs = ms%1000
   miliseconds= ms-secs*1000
 mins=secs%60
